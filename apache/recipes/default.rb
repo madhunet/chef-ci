@@ -11,5 +11,6 @@ command "apt-get update"
 end
 package 'apache2' do
 action :install
+mode 755
 end
 
